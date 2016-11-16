@@ -1,6 +1,7 @@
   var form = $('#form-container');
   var playerName = $('#player').val();
   var button = $('submit-btn');
+  var names = ["Elle", "Byul"];
   var clicks = [0, 0];
 
   $(document).ready(function(){
@@ -20,9 +21,11 @@
     alert("Challenge Accepted");
     $('#greeting').html('Welcome ' + playerName + '. Click the cat!');
 
+    $('#cat1-click').append('<p>Name:  ' + names[0] + ' </p>');
     $('#cat1-click').append('<p>Current click is:  ' + clicks[0] + ' </p>');
     $('#cat1-img').append('<img id = cat-image src="img/Elle.png" alt="a face of a cat with black coat">');
 
+    $('#cat2-click').append('<p>Name:  ' + names[1] + ' </p>');
     $('#cat2-click').append('<p>Current click is:  ' + clicks[1] + ' </p>');
     $('#cat2-img').append('<img id = cat-image src="img/Elle.png" alt="a face of a cat with black coat">');
   });
