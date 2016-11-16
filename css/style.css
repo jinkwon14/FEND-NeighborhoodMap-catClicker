@@ -1,0 +1,26 @@
+* {box-sizing:border-box;}
+body {background-color: #CCC;}
+
+.greeting {
+    color:black;
+    text-shadow: 1px 1px 3px rgba(255,255,255, .5);
+    text-align: center;
+}
+
+.cat-container {
+    width:100%;
+    padding:10px;
+    margin-right: 10px;
+    border-style: dotted;
+    border-width: medium;
+    border-color: white;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#cat-image {
+  max-width: 25%;
+}
+
+#cat1-score {
+  color: red;
+}
